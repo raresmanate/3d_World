@@ -78,10 +78,10 @@ p{
 .p1{
     padding: 2px;
     position: relative;
-    left: 5vw;
     justify-content: center;
     width: 100%;
     color: black;
+    margin: 25px;
 }
 
 .img1{
