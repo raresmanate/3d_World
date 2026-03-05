@@ -1,0 +1,144 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family:sans-serif;
+    background-color: azure;
+    font-size: 18px;
+}
+
+a{
+    border: 2px solid cyan ;
+    background-color: aquamarine;
+    border-radius: 20px;
+    color: black;
+}
+
+.h2{
+    padding: 2px;
+    border: 3px solid cyan;
+    border-radius: 10px;
+    background-color: cyan;
+    margin: 5px;
+    width: 60vh;
+    display: flex;
+}
+
+
+header{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    max-width: 100%;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+
+main{
+    display: flex;
+}
+
+
+.img-logo{
+    display: flex;
+    height: 150px;
+    width: 150px;
+    padding: 4px;
+    margin: 5px;
+    position: relative;
+    left: 4vw;
+}
+
+.title{
+    position: relative;
+    display: flex;
+    left: 7vw;
+    margin: 3px;
+}
+
+.nav{
+    display: flex;
+    position: relative;
+    left: 4vw;
+    margin-right: 50px;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+p{
+    margin: 5px;
+}
+
+
+.p1{
+    padding: 2px;
+    position: relative;
+    left: 5vw;
+    justify-content: center;
+    width: 100%;
+    color: black;
+}
+
+.img1{
+    height: 150px;
+    width: 150px;
+    display: flex;
+    position: relative;
+    left: 5vw;
+    border: 5px solid black;
+    border-radius: 3px;
+}
+
+.img1 img{
+    width: 100%
+
+
+}
+
+.p2{
+    position: relative;
+    left: 5vw;
+    padding: 2px;
+    color: black;
+}
+
+.img2{
+    height: 150px;
+    width: 150px;
+    display: flex;
+    position: relative;
+    left: 5vw;
+    border: 5px solid black;
+    border-radius: 3px;
+}
+
+.img2 img{
+    width: 100%;
+}
+
+footer{
+    margin: 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.paragraf{
+    width: 75%;
+    display: flex;
+}
+
+
+a:hover {
+    background-color: rgb(24, 231, 231);
+
+}
+
+div p:focus{
+    background-color: greenyellow;
+    color: black;
+}

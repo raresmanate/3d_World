@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D_World</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="img img-logo"><img src="./Imagini/logo.jpg" alt="Logo" width="150px"></div>
+        <div class="title title"><h1><strong>3d World</strong></h1></div>
+        <div class="nav">
+            <nav class="nav">
+                <ul class="navlist">
+                    <li class="button"> <a href="https://www.thingiverse.com/">3D models</a></li>
+                    <li class="button"><a href="https://www.amazon.es/3D-Printer/s?k=3D+Printer">3D Printers</a></li>
+                    <li class="button"><a href="https://www.pcmag.com/picks/the-best-3d-printers">Reviews</a></li>
+                    <li class="button"><a href="https://www.reddit.com/r/3Dprinting/">Forum</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="h2"><h2>How does a 3D printer work</h2></div>
+        <div class="paragraf p1">
+            <ol class="olist">
+                <li>Create or download a 3D model using CAD software.</li>
+                <li>Slice the model into thin layers using slicing software.</li>
+                <li>Print layer by layer:
+                    <ul class="ulist">
+                        <li>In FDM printers, melted plastic is pushed through a heated nozzle.</li>
+                        <li>In resin (SLA) printers, UV light hardens liquid resin.</li>
+                    </ul>
+                    <li>Layers fuse together to form the final solid object.</li>
+                </li>
+            </ol>
+        </div>
+        <div class="img img1">
+            <img src="./Imagini/3d printer photo.jpg" alt="3D printer photo">
+        </div>
+        <div class="h2"><h2>How to Model for 3D Printing</h2></div>
+        <div class="paragraf p2">
+            <ol class="olist">
+                <li>Use beginner-friendly software like Tinkercad, Fusion, or Blender.</li>
+                <li>Design a solid (watertight) object.</li>
+                <li>Avoid extremely thin walls.</li>
+                <li>Export as an STL file.</li>
+                <li>Import into a slicer and prepare for printing</li>
+            </ol>
+        </div>
+        <div class="img img2">
+            <img src="./Imagini/3d model.jpg" alt="3d model photo">
+        </div>
+        <div class="h2"><h2>How does the slicer work</h2></div>
+        <div class="paragraf p3"> 
+            <p>First, slicer software cuts the model into many thin horizontal layers. Then it calculates the exact paths the nozzle or laser must follow for each layer.</p>
+        </div>
+    </main>
+    <footer>
+        <div class="contact">
+            <h3>Contact: </h3>
+            <p>+40740674926</p>
+        </div>
+        <h3 class="about-us"><a href="" target="_blank">About us</a></h3>
+        <div class="blog">
+            <h2 id="blog"><a href="">Our Blog</a></h2>
+        </div>
+        <div class="complain">
+            <h3 class="subtitle">Complain</h3>
+            <form action="Plangeri.js" method="post"></form>
+            <label for="text">Complain: </label>
+        <input type="text" name="text" id="text">
+        <button type="submit">Submit</button>
+        </div>
+    </footer>
+</body>
+</html>
